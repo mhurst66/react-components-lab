@@ -1,3 +1,4 @@
+import WeatherData from './WeatherData/WeatherData'
 import './WeatherForecast.css'
 
 const WeatherForecast = (props) => {

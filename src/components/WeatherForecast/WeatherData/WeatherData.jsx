@@ -1,5 +1,5 @@
 import WeatherIcon from '../WeatherIcon/WeatherIcon'
-import 'src/components/WeatherForecast/WeatherForecast.css'
+// import 'src/components/WeatherForecast/WeatherForecast.css'
 
 const WeatherData = (props) => {
     const { forecast } = props
