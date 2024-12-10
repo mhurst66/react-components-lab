@@ -3,11 +3,11 @@ import './WeatherForecast.css'
 const WeatherForecast = (props) => {
     const { forecast } = props
     return (
-        <div>
+        <div className='weather'>
             <h2>{forecast.day}</h2>
             <img src={forecast.img} alt={forecast.imgAlt} />
-            <p><span>conditions: {forecast.conditions}</span>current weather conditions</p>
-            <p><span>time: {forecast.time}</span>time of day</p>
+            <p><span>Conditions: {forecast.conditions}</span></p>
+            <p>Time: {forecast.time}</p>
         </div>
     )
 }
